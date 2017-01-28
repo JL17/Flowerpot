@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+ <head>
+ 	<meta charset="utf-8">
+ 	<title>The Form</title>
+ 	<meta name="description" content="">
+ </head>
+<h1> The Form </h1>
+<form action="saveresults" method="post">
+	<b>Name:</b> &nbsp; <input type="text" size="50" maxlength="256"
+		name="name">
+		<br /> <br />
+	<b>Address:</b> <input type="text" size="50" maxlength="256"/>
+	<br /> <br /> 
+	<b>Send Data? </b>
+	 Yes <input type="radio" name="Send" value="Yes"/>
+	 No <input type="radio" name="Send" value="No" />&nbsp; &nbsp;
+	<br /> <br /> 
+	For what type of product?  &nbsp; 
+	 <select name="Product" multiple size="3"> 
+	  <option selected value="Laptop">Laptop
+	  <option value="Desktop">Desktop
+	  <option value="Microwave">Microwave
+	  <option value="Refridgerator">Refridgerator
+	  <option value="Horseshoe">Horseshoe
+	  <option value="Pride">Pride
+	 </select> <br /> <br /> 
+	Larry or Barry?  &nbsp; 
+	 <select name="Who?" multiple size="2">
+	  <option selected value="Larry">Larry
+	  <option value="Barry">Barry
+	 </select> <br /> <br /> 
+    Check if a member <input type="checkbox" name="Member"="true"> 
+    Check if Larry <input type="checkbox" name="Larry"="true"> 
+    Check if Barry <input type="checkbox" name="Barry"="true"> <br />
+ <br />
+	  <input type="submit" value="Send It" />
+	  <input type="reset" value="Forget It" />
+</form>
+
+	
+</html>
