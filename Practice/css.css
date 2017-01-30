@@ -1,0 +1,24 @@
+		aside#left {
+				position : absolute;
+				float : left;
+				width : 15%;
+				margin : 5px;
+				border : thin solid;
+				padding : 5px;
+				}
+		section#main {
+					position : relative ;
+					float : left;
+					width : 58%;
+					margin : 5px;
+					border : solid;
+					padding : 5px;
+					}
+		aside#right {
+				position : relative ;
+				float : right;
+				width : 15%;
+				margin : 5px;
+				border : thin solid;
+				padding : 5px;
+					}
