@@ -1,0 +1,30 @@
+{
+margin: 0;
+padding: 0;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background-color: #404040;
+	font-weight: 500;
+}
+
+div#tony {
+	float: left;
+	font-family: "Lusicd Bright", Georgia, serif;
+	width: 10%;
+	font-size: 72pt;
+	background: url('tony parker.jpg') no-repeat center center;
+	min-height: 600px;
+	text-align: left;
+}
+
+
+div:first-letter {
+		font: 100pt "FF Harlem Bold";
+		font-weight: 800;
+	}

@@ -1,0 +1,156 @@
+url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+
+
+:before,
+:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+
+	color: #fff;
+    background-color: #000;
+}
+
+div.container {
+	background: url('draftmanu.jpg') center center;
+	min-height: 300px;
+	width: 1200px;
+	margin: 10px;
+}
+h1 {
+	color: #000000;
+	font-size: 75px;
+	font-weight: 800;
+	text-align: left;
+	text-shadow: 0px 2px 4px rgba(34,62,66,.75);
+	width: 15%;
+	margin: 10px;
+}
+}
+a.btn {
+	border-radius: 2px;
+	border: solid;
+	box-shadow: 0px 2px 4px rgba(34,62,66,.25);
+	color: #fff;
+	font-size: 25px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	padding: 10px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	-webkit-transition: box-shadow 1s ease;
+	transition: box-shadow 1s ease;
+}
+
+.clip-text {
+	font-family: 'FF Harlem Bold';
+    font-size: 6em;
+    font-weight: bold;
+    line-height: 1;
+    position: relative;
+    display: inline-block;
+    margin: .25em;
+    padding: .5em .75em;
+    text-align: center;
+    /* Color fallback */
+    color: #fff;
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+}
+
+.clip-text:before,
+.clip-text:after {
+    position: absolute;
+    content: '';
+}
+
+/* Background */
+.clip-text:before {
+    z-index: -2;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: inherit;
+}
+
+/* Text Background (black zone) */
+.clip-text:after {
+    position: absolute;
+    z-index: -1;
+    top: .125em;
+    right: .125em;
+    bottom: .125em;
+    left: .125em;
+    background-color: #000;
+}
+
+.clip-text--no-textzone:after {
+    content: none;
+}
+
+/* Use Background-size cover for photo background and no-repeat background */
+.clip-text--cover,
+.clip-text--cover:before {
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+            background-size: cover;
+}
+
+.clip-text_one {
+    background-image: url(draftmanu.jpg);
+}
+
+h2 {
+	text-align: left;	
+	font-size: 20px;
+	text-indent: .6in;
+}
+aside#left {
+		float: left;
+		margin: .5in;
+		
+}
+
+article#one {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	text-align: left;
+	width: 90%;
+	padding: 5px;
+	height: 200px;
+	margin: .5in;
+	font-size: 30px;
+	line-height: 1.5;
+	text-indent: .2in;
+}
+
+article#two {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	text-align: left;
+	width: 90%;
+	padding: 5px;
+	
+	margin: 40px;
+	font-size: 30px;
+	line-height: 1.5;
+	text-indent: .5in;
+}
+
+article:first-letter {
+	font-family: 'Oswald', sans-serif;
+	font-size: 50px;
+	font-weight: 500;
+}
+	
